@@ -1,0 +1,23 @@
+A Script to easily compile and build APK files. 
+And tool to pull some  files from device.
+
+```sh
+$ eat.py -d <apk-file> 
+usage: Easy APK Tool [-h] [-d APK_FOR_DECODE] [-b SOURCE_DIR]
+                     [-s APK_FOR_SIGN] [-j DEX_FILE] [-u APK_FOR_UNZIP]
+                     [--tool]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d APK_FOR_DECODE, --decode APK_FOR_DECODE
+                        Decode APK file
+  -b SOURCE_DIR, --build SOURCE_DIR
+                        Build app source to APK and sign
+  -s APK_FOR_SIGN, --sign APK_FOR_SIGN
+                        Sign APK file
+  -j DEX_FILE, --jar DEX_FILE
+                        Convert to DEX(APK) to JAR
+  -u APK_FOR_UNZIP, --unzip APK_FOR_UNZIP
+                        Unzip APK file
+  --tool                Tool for Pulling APK, DB file etc
+```

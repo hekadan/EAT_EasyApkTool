@@ -1,0 +1,2 @@
+apktool=2.4.0
+dex-tools=2.1-SNAPSHOT
